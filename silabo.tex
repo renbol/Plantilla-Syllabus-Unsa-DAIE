@@ -1,0 +1,193 @@
+\documentclass[12pt]{article}
+\usepackage[spanish]{babel}         % Utiliza los nombres de figuras, etc. En el idioma que se quiera
+\usepackage[latin1]{inputenc} 
+\usepackage{natbib}
+\usepackage{url}
+%\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{parskip}
+\usepackage{fancyhdr}
+
+\usepackage{amssymb,amsthm,amsmath}
+\usepackage{amsfonts}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage[export]{adjustbox}
+\usepackage{lastpage}
+
+\newcolumntype{x}[1]{%
+>{\centering\hspace{0pt}}p{#1}}%
+
+\usepackage{vmargin}
+\setmarginsrb{1.5 cm}{1.0 cm}{1.5 cm}{1.0 cm}{1 cm}{1.0 cm}{1 cm}{1.0 cm}
+
+\title{Laboratorio 1 - Formato A4 }			% Title
+\author{Ing. Renzo Bol\'i­var Valdivia}								% Author
+\date{ \today }											% Date
+
+\clubpenalty=10000  %Control Lineas viudas
+\widowpenalty=10000  %Control de lineas huerfanas
+
+\usepackage[none]{hyphenat} % Para no Separa Palabras y "sloppy"  al inicio de documento  
+
+
+
+\makeatletter
+\let\thetitle\@title
+\let\theauthor\@author
+\let\thedate\@date
+\makeatother
+
+%\pagestyle{fancy}
+%\fancyhf{}
+%\rhead{\theauthor}
+%\lhead{\thetitle}
+%\cfoot{\thepage}
+
+\usepackage{enumerate}
+\usepackage{datetime}
+\newdateformat{monthyeardate}{\THEYEAR}
+
+
+\renewcommand*{\arraystretch}{1.35}
+%\newenvironment{Tabular}[2][1]
+%  {\def\arraystretch{#1}\tabular{#2}}
+%  {\endtabular}
+
+
+%%%%Modifica las Secciones
+\renewcommand{\thesection}{\Roman{section}} %%ROMAN
+\usepackage{titlesec}   %%%paquete especial
+%%%%%%%Modifica la forma de las seccciones y tamaños
+\titleformat{\section}[block]
+  {\fontsize{12}{15}\bfseries\sffamily\filright}
+  {\thesection}
+  {1em}
+  {\MakeUppercase}
+%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+\sloppy % para no separar palabras
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\tableofcontents
+%\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+\begin{figure}
+
+\begin{tabular}[t]{c x{15cm} r}
+  \centering
+    \multirow{4}{*}{\includegraphics[width=0.20\textwidth]{img/unsa.png}} & { \small \bf  UNIVERSIDAD NACIONAL DE SAN AGUSTÍN DE AREQUIPA}  &  \\
+                                                                       &  { \small \bf VICE RECTORADO ACADÉMICO}   & \\
+                                                                       &  {\small  \bf FACULTAD DE INGENIERÍA DE PRODUCCIÓN Y SERVICIOS}  &     \\
+                                                                       &  {\footnotesize  \bf DEPARTAMENTO ACADÉMICO DE INGENIERÍA ELECTRÓNICA}  &     \\ \\
+                                                                       &  {\small \bf SILABO 2017 B}     &  \\ \\
+                                                                       &  {\small \bf CURSO: COMPUTACIÓN I}  &     \\
+  \end{tabular}
+\end{figure}
+
+
+\end{center}
+
+
+
+
+
+\section{DATOS GENERALES}
+
+\begin{table}[h] \small
+\begin{tabular}[10]{|p{0.27\textwidth}|p{0.19\textwidth}|p{0.23\textwidth} p{0.20\textwidth}|}
+\hline
+\bf Periodo Académico : & \multicolumn{3}{|l|}{ 2017-A}      \\ \hline
+\bf Escuela Profesional :    & \multicolumn{2}{|l}{ Ingeniería en Telecomunicaciones}     & \\ \hline
+\bf Código de Asignatura :    & \multicolumn{3}{|l|}{ 1702110}      \\ \hline
+\bf Nombre de Asignatura :    & \multicolumn{3}{|l|}{ Computación I}      \\ \hline
+\bf Semestre :    & \multicolumn{3}{|l|}{ I (Primero)}      \\ \hline
+\bf Caracteristicas :    & \multicolumn{3}{|l|}{ Semestral}      \\ \hline
+\bf Duración :    & \multicolumn{3}{|l|}{ 17 Semanas}      \\ \hline
+\bf \multirow{4}{4cm} {Numero de Horas: (Semestral) } & Teóricas (Lab.) : & 3 &    \\ \cline{2-4}
+																		& Laboratorio : & 2 &    \\  \cline{2-4}
+																		& Teórico - Practicas : & 3 &    \\  \cline{2-4}
+																		& Practicas : & 3 &    \\ \hline
+\bf Numero de Créditos :    & \multicolumn{3}{|l|}{ 3}      \\ \hline
+\bf Prerequisitos :    & 1701103 &   Razonamiento Lógico &  \\ \hline
+
+\end{tabular}
+\end{table}
+
+
+\section{DATOS ADMINISTRATIVOS}
+
+%\begin{table}[h] \small
+\scalebox{0.9}{
+\begin{tabular}[10]{|p{0.20\textwidth}|p{0.17\textwidth}|p{0.13\textwidth}|p{0.17\textwidth}|p{0.17\textwidth}|p{0.10\textwidth}|}
+\hline
+ \multicolumn{6}{|l|}{ \bf{PROFESOR:} Renzo Gustavo Bolívar Valdivia  }      \\ 
+ \multicolumn{6}{|l|}{ \bf{GRADO ACADÉMICO:} Bachiller en Ingeniería Electrónica}      \\ 
+ \multicolumn{6}{|l|}{ \bf Candidato para Magister Ingeniería de Proyectos   }      \\ 
+ \multicolumn{6}{|l|}{ \bf{DEPARTAMENTO ACADÉMICO:} Ingeniería Electrónica  }      \\ \hline
+ \bf \multirow{3}{3.6cm} {\bf HORARIO: Total Semanal 15 Hrs. 3 Grupos } & Lunes  & Martes & Miercoles & Jueves & Viernes    \\ \cline{2-6}
+																		                                   & 8:40 - 11:10(A)  &  & 8:40 - 11:10(B) & 8:40 - 11:10(C) &     \\ \cline{2-6}
+																										& 11:10 - 12:50(B)  &  & 11:10 - 12:50(C)  & 11:10 - 12:50(A)  &     \\ \hline
+\bf AULA & Laboratorio  &  & Laboratorio & Laboratorio &     \\ \hline
+																		
+
+
+
+
+\end{tabular}}
+
+
+
+\section{FUNDAMENTACIÓN (JUSTIFICACIÓN)}
+
+
+
+\section{COMPETENCIAS DEL CURSO}
+
+
+
+\section{CONTENIDO TEMATICO POR COMPETENCIAS}
+
+
+
+
+\section{CONTENIDO TEMATICO POR COMPETENCIAS}
+
+
+\section{ESTRATEGIAS DE ENSEÑANZA}
+
+
+\section{EVALUACIÓN}
+
+
+
+
+
+
+
+
+
+
+%\end{table}
+
+% \cite{bibtex}. The Table of Contents will be updated automatically.
+
+
+%\hspace{1 cm}--- Linus
+
+
+\bibliographystyle{plain}
+\bibliography{biblist}
+
+\end{document}
