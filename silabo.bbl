@@ -1,3 +1,11 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{varo2014introduccion}
+A.~M. Var{\'o}, P.~G. Sevilla, and I.~G. Luengo, {\em Introducci{\'o}n a la
+  programaci{\'o}n con Python 3}.
+\newblock Universitat Jaume I. Servei de Comunicaci{\'o} i Publicacions, 2014.
+
+\bibitem{duque2011python}
+R.~G. Duque, ``Python para todos,'' 2011.
 
 \end{thebibliography}
