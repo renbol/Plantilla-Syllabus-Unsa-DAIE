@@ -1,11 +1,29 @@
 \begin{thebibliography}{1}
 
-\bibitem{varo2014introduccion}
-A.~M. Var{\'o}, P.~G. Sevilla, and I.~G. Luengo, {\em Introducci{\'o}n a la
-  programaci{\'o}n con Python 3}.
-\newblock Universitat Jaume I. Servei de Comunicaci{\'o} i Publicacions, 2014.
+\bibitem{stroustrup2011lenguaje}
+B.~Stroustrup, {\em El lenguaje de programaci{\'o}n C++}.
+\newblock Addison-Wesley, 2011.
 
-\bibitem{duque2011python}
-R.~G. Duque, ``Python para todos,'' 2011.
+\bibitem{deitel1995programar}
+H.~Deitel and P.~Deitel, ``Como programar en c/c++ ed,'' 1995.
+
+\bibitem{van2014beginning}
+M.~D. van Tuil, ``Beginning programming with c++ for dummies,'' 2014.
+
+\bibitem{joyanes2001programacion}
+L.~Joyanes~Aguilar, I.~Zahonero~Mart{\'\i}nez, {\em et~al.}, ``Programaci{\'o}n
+  en c: metodolog{\'\i}a, algoritmos, estructura de datos,'' 2001.
+
+\bibitem{deitel2003programar}
+H.~M. Deitel and P.~J. Deitel, {\em Como programar en C++}.
+\newblock Pearson educaci{\'o}n, 2003.
+
+\bibitem{campos1995estructuras}
+J.~Campos, J.~MART{\'I}NEZ, and S.~VELILLA, ``Estructuras de datos y
+  algoritmos,'' {\em Prensas Universitarias de Zaragoza}, 1995.
+
+\bibitem{wirth1980algoritmos}
+N.~Wirth, {\em Algoritmos m{\'a}s estructuras de datos, programas}, vol.~7.
+\newblock Ediciones del Castillo, 1980.
 
 \end{thebibliography}

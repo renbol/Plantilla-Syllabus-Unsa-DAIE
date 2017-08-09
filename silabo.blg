@@ -3,46 +3,48 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: silabo.aux
 The style file: ieeetr.bst
 Database file #1: biblist.bib
-Warning--empty journal in duque2011python
-You've used 2 entries,
+Database file #2: biblista.bib
+Warning--empty journal in van2014beginning
+Warning--empty journal in joyanes2001programacion
+You've used 7 entries,
             1876 wiz_defined-function locations,
-            486 strings with 3753 characters,
-and the built_in function-call counts, 329 in all, are:
-= -- 25
-> -- 15
+            512 strings with 4295 characters,
+and the built_in function-call counts, 1074 in all, are:
+= -- 88
+> -- 50
 < -- 0
-+ -- 6
-- -- 4
-* -- 19
-:= -- 59
-add.period$ -- 3
-call.type$ -- 2
-change.case$ -- 1
++ -- 20
+- -- 13
+* -- 57
+:= -- 174
+add.period$ -- 10
+call.type$ -- 7
+change.case$ -- 4
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 18
-empty$ -- 38
-format.name$ -- 4
-if$ -- 75
+cite$ -- 9
+duplicate$ -- 57
+empty$ -- 130
+format.name$ -- 13
+if$ -- 258
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 3
-newline$ -- 10
-num.names$ -- 2
-pop$ -- 12
+int.to.str$ -- 7
+missing$ -- 9
+newline$ -- 27
+num.names$ -- 7
+pop$ -- 40
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2
+skip$ -- 13
 stack$ -- 0
 substring$ -- 0
-swap$ -- 1
+swap$ -- 4
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 2
-width$ -- 3
-write$ -- 18
-(There was 1 warning)
+warning$ -- 2
+while$ -- 7
+width$ -- 8
+write$ -- 59
+(There were 2 warnings)
