@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.1)  9 AUG 2017 00:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.1)  9 AUG 2017 22:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -444,22 +444,103 @@ Overfull \hbox (52.55792pt too wide) in paragraph at lines 87--96
 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./img/unsa.png>] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 198--198
+ <./img/unsa.png>]
+Underfull \hbox (badness 1048) in paragraph at lines 157--158
+[]\OT1/cmr/m/n/12 Fundamentos de compu-taci^^Son y pro-gra-ma-ci^^Son, he-rra-m
+ien-tas pa-ra tra-ba-jo co-la-bo-ra-ti-vo,
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+[]|\OT1/cmr/bx/n/10.95 7-Agosto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+[]|\OT1/cmr/m/n/10.95 Tema1: Fun-da-men-tos de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+\OT1/cmr/m/n/10.95 compu-taci^^Son y pro-gra-ma-ci^^Son,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+\OT1/cmr/m/n/10.95 he-rra-mien-tas pa-ra tra-ba-jo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+[]|\OT1/cmr/bx/n/10.95 4-Setiembre
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+[]|\OT1/cmr/m/n/10.95 Tema2: Al-go-rit-mos y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+\OT1/cmr/m/n/10.95 pro-gra-ma-ci^^Son con es-truc-tu-ras
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+[]|\OT1/cmr/bx/n/10.95 9-Octubre
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+[]|\OT1/cmr/m/n/10.95 Tema3: Al-go-rit-mos y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+\OT1/cmr/m/n/10.95 pro-gra-ma-ci^^Son con es-truc-tu-ras
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
+[]|\OT1/cmr/bx/n/10.95 6-Noviembre
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
+[]|\OT1/cmr/m/n/10.95 Temas4: Fun-cio-nes, Arre-glos,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
+[]|\OT1/cmr/bx/n/10.95 11-Diciembre
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 188--188
+[]|\OT1/cmr/m/n/10.95 Proyecto Fi-nal: Im-ple-men-ta-ci^^Son
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
 []|\OT1/cmr/m/n/10.95 TIF: Tra-ba-jo de
  []
 
-[3] (./silabo.bbl) 
+[4] (./silabo.bbl)
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+ []
+
+
 AED: lastpage setting LastPage
-[4] (./silabo.aux
+[5] (./silabo.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 5720 strings out of 493089
- 78245 string characters out of 6134842
+ 5718 strings out of 493089
+ 78229 string characters out of 6134842
  179902 words of memory out of 5000000
- 9046 multiletter control sequences out of 15000+600000
+ 9044 multiletter control sequences out of 15000+600000
  11397 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,13n,43p,1057b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -469,10 +550,10 @@ b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on silabo.pdf (4 pages, 150511 bytes).
+Output written on silabo.pdf (5 pages, 153298 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 45 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
